@@ -1,0 +1,30 @@
+{
+  "_notice": "Silent-Failure ↔ Gate 桥接映射规则（件3 · 首批 3 条）。上游资产：silent-failure-catalog 公开仓。理论文本保留所有权利 © 2026 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）。条目为虚构演示规则，不构成医疗建议。",
+  "_schema": "id / name / signal / cond_key / gate_action / catalog_ref",
+  "rules": [
+    {
+      "id": "RF-MED-001",
+      "name": "输入人群漂移（准确率未明显下降但人群分布偏移）",
+      "signal": "drift",
+      "cond_key": "drift",
+      "gate_action": "PAUSE + REVERIFY + ROLLBACK",
+      "catalog_ref": "silent-failure-catalog#covariate-drift"
+    },
+    {
+      "id": "RF-MED-002",
+      "name": "执行路径异常（Agent 未报错但行为偏离既定流程）",
+      "signal": "path_deviation",
+      "cond_key": "path",
+      "gate_action": "PAUSE + ESCALATE(人工复核)",
+      "catalog_ref": "silent-failure-catalog#silent-path-deviation"
+    },
+    {
+      "id": "RF-MED-003",
+      "name": "数据/工具过期（仍在调用但谱系已过期）",
+      "signal": "data_age_days",
+      "cond_key": "stale",
+      "gate_action": "PAUSE + ROLLBACK(至最近有效版本)",
+      "catalog_ref": "silent-failure-catalog#stale-source"
+    }
+  ]
+}
