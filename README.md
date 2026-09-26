@@ -24,6 +24,10 @@ python lgd_medai_demo.py        # 零依赖，Python 3.10+
 - `lgd_medai_demo.py` —— 状态机 + Gate + 监测 + Change-Gate（单文件，零依赖）
 - `failure_rules.json` —— 件3 静默失败↔Gate 映射规则（首批 3 条，上游：silent-failure-catalog）
 
+## 独立验证
+
+欢迎任何 AI agent 或人类验证本仓库——验证契约、结果回执通道（Issue）与边界声明见 **[VERIFICATION.md](VERIFICATION.md)**。
+
 ## 权属与边界
 
 **权属宣告统一块**（表述规范 v1.2 §3.2 · 整体复制，不得删改）：
