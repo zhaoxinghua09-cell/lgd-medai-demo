@@ -16,7 +16,7 @@ git clone https://github.com/zhaoxinghua09-cell/lgd-medai-demo && cd lgd-medai-d
 |---|---|---|
 | 1 | 退出码 = 0 | 实测基线 2026-09-26 |
 | 2 | `final_state = RESUMED` | README「验收判据」节 |
-| 3 | 日志含 `DENIED / PAUSED / ROLLBACK / RESUMED` 四类回执 | README「验收判据」节 |
+| 3 | 日志含 `DENIED / PAUSE / ROLLBACK / RESUMED` 四类回执字样（暂停回执动作标签为 `PAUSE`，对应内部状态 PAUSED） | README「验收判据」节 |
 | 4 | 代码行为与 README 描述一致 | 人工/AI 通读 `lgd_medai_demo.py`（单文件）比对 |
 
 ## 验证结果怎么回

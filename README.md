@@ -8,7 +8,7 @@
 python lgd_medai_demo.py        # 零依赖，Python 3.10+
 ```
 
-验收判据：`final_state = RESUMED → PASS`，且日志（字符串级）含 `DENIED / PAUSED / ROLLBACK / RESUMED` 四类回执字样。注：DENIED 在 demo 中为瞬态状态，属演示简化；规范语义以 CoreSpec M4（Gate 决策记录，与 APPROVED 同权重入链）为准。
+验收判据：`final_state = RESUMED → PASS`，且日志（字符串级）含 `DENIED / PAUSE / ROLLBACK / RESUMED` 四类回执字样（注：暂停回执的动作标签为 `PAUSE`，对应内部状态 PAUSED）。注：DENIED 在 demo 中为瞬态状态，属演示简化——实现为重新入册（绕过状态机的直接赋值）；规范语义以 CoreSpec M4（Gate 决策记录，与 APPROVED 同权重入链）为准。
 
 ## 演示的四幕
 
