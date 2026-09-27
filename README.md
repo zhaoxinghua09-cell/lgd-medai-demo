@@ -1,4 +1,17 @@
 # LGD-MedAI Demo v0.1
+## 许可说明 · License Notice
+
+- **权利状态**：本仓库以 **Apache-2.0** 许可发布，可依该许可证条款自由使用、修改与再分发。
+- **引用建议**：引用时请标注仓库名与原文链接 `https://github.com/zhaoxinghua09-cell/lgd-medai-demo`
+  与权利人「赵兴华 / Steven Zhao·China」。
+- **品牌状态限定**：MedXpert、SynomosAI、LGD 等为相关项目标识，
+  **均未申请实体注册、未申请商标注册**；出现仅作来源标识，
+  不构成对法人实体或商标权的任何主张。
+- **完整条款**：见仓库根目录 [LICENSE](LICENSE)。
+- **联系**：zhaoxinghua06@126.com ｜ ORCID 0009-0001-0512-1237
+
+---
+
 
 **LGD 三律在医疗 AI Agent 上的最小可运行演示**（虚构场景 · 零真实患者数据 · 零品牌定位语）
 
