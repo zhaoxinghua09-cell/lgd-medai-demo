@@ -1,0 +1,15 @@
+# lgd-medai-demo
+
+> - **权利状态**：本仓库以 **Apache-2.0** 许可发布，可依该许可证条款自由使用、修改与再分发。
+
+## Repository
+
+- lgd-medai-demo: https://github.com/zhaoxinghua09-cell/lgd-medai-demo (- **权利状态**：本仓库以 **Apache-2.0** 许可发布，可依该许可证条款自由使用、修改与再分发。)
+
+## Ecosystem / 生态
+
+- awesome-trusted-agents: https://github.com/zhaoxinghua09-cell/awesome-trusted-agents
+- lgd-hub: https://github.com/zhaoxinghua09-cell/lgd-hub
+- lgd-skill-marketplace: https://github.com/zhaoxinghua09-cell/lgd-skill-marketplace
+- governanceos: https://github.com/zhaoxinghua09-cell/governanceos
+- skillgate: https://github.com/zhaoxinghua09-cell/skillgate
