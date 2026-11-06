@@ -4,7 +4,7 @@
 
 - **权利状态**：本仓库以 **Apache-2.0** 许可发布，可依该许可证条款自由使用、修改与再分发。
 - **引用建议**：引用时请标注仓库名与原文链接 `https://github.com/zhaoxinghua09-cell/lgd-medai-demo`
-  与权利人「赵兴华 / Steven Zhao·China」。
+  与权利人：© 2026 赵兴华 / Steven Zhao (ORCID 0009-0001-0512-1237). All rights reserved.
 - **品牌状态限定**：MedXpert、SynomosAI、LGD 等为相关项目标识，
   **均未申请实体注册、未申请商标注册**；出现仅作来源标识，
   不构成对法人实体或商标权的任何主张。
@@ -47,7 +47,7 @@ python lgd_medai_demo.py        # 零依赖，Python 3.10+
 **权属宣告统一块**（表述规范 v1.2 §3.2 · 整体复制，不得删改）：
 
 ```
-© 2026 赵兴华 / Steven Zhao·China (ORCID 0009-0001-0512-1237). All rights reserved.
+© 2026 赵兴华 / Steven Zhao (ORCID 0009-0001-0512-1237). All rights reserved.
 理论署名 (attribution) : LGD（Ling Gong Dao / 凡自治之道）— SynomosAI initiative
 名称状态 (name status)  : "SynomosAI" / "MedXpert" — 未申请实体注册、未申请商标注册
                         (not a registered legal entity; no trademark registered)
@@ -60,7 +60,7 @@ python lgd_medai_demo.py        # 零依赖，Python 3.10+
                     外锚 (external anchor): Sigstore Rekor logIndex 2883389783
 ```
 
-© 2026 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）
+© 2026 赵兴华 / Steven Zhao (ORCID 0009-0001-0512-1237). All rights reserved.
 
 - **代码**：Apache-2.0；**LGD 理论文本与方法论**：保留所有权利（Apache-2.0 不覆盖理论文本）
 - 品牌 SynomosAI / MedXpert：**未申请实体注册、未申请商标注册**
